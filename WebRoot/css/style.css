@@ -1,0 +1,237 @@
+.thumbnail {
+	display: block;
+	padding: 4px;
+	margin-bottom: 20px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out;
+}
+
+.thumbnail>img,.thumbnail a>img {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a.thumbnail:hover,a.thumbnail:focus,a.thumbnail.active {
+	border-color: #337ab7;
+}
+#preview img {
+	width: 200px;
+	height: 200px;
+}
+
+#preview {
+	border: 1px solid #000;
+}
+
+.table-header {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.table-footer {
+	text-align: center;
+}
+
+table tr td span {
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.span-title {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.table-font {
+	font-size: 10px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:HOVER {
+	cursor: pointer;
+}
+
+.amount {
+	cursor: pointer;
+}
+
+.source {
+	width: 700px;
+	font-size: 12px;
+	font-family: Courier New;
+	border: 1px solid #AAAAAA;
+	background-color: #F0F0EE;
+	padding: 5px;
+}
+
+.source pre {
+	margin: 0;
+}
+
+form {
+	margin: 0;
+}
+
+.editor {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.pagination {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+
+.pagination>li {
+	display: inline;
+}
+
+.pagination>li>a,.pagination>li>span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.42857143;
+	color: #337ab7;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.pagination>li:first-child>a,.pagination>li:first-child>span {
+	margin-left: 0;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.pagination>li:last-child>a,.pagination>li:last-child>span {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.pagination>li>a:hover,.pagination>li>span:hover,.pagination>li>a:focus,.pagination>li>span:focus
+	{
+	color: #23527c;
+	background-color: #eee;
+	border-color: #ddd;
+}
+
+.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus
+	{
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #337ab7;
+	border-color: #337ab7;
+}
+
+.pagination>.disabled>span,.pagination>.disabled>span:hover,.pagination>.disabled>span:focus,.pagination>.disabled>a,.pagination>.disabled>a:hover,.pagination>.disabled>a:focus
+	{
+	color: #777;
+	cursor: not-allowed;
+	background-color: #fff;
+	border-color: #ddd;
+}
+
+#center-left {
+	float: left;
+	margin-left:auto;
+	margin-right:auto;
+	/*border:1px solid red;*/
+	position: absolute;
+	left:20px;
+}
+
+#center-right {
+	float: left;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 20px;
+	min-width: 700px;
+	min-height:500px;
+	/*border:1px solid red;*/
+	position: absolute;
+	left:300px;
+}
+
+.list-group {
+	padding-left: 0;
+	margin-bottom: 20px;
+	width: 200px;
+}
+
+.list-group-item>.badge {
+	float: right;
+}
+
+.list-group-item>.badge+.badge {
+	margin-right: 5px;
+}
+
+.list-group-item {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: -1px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.list-group-item:first-child {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.list-group-item:last-child {
+	margin-bottom: 0;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+a.list-group-item {
+	color: #555;
+}
+
+.list-group-item.disabled,.list-group-item.disabled:hover,.list-group-item.disabled:focus
+	{
+	color: #777;
+	cursor: not-allowed;
+	background-color: #eee;
+}
+
+.badge {
+	display: inline-block;
+	min-width: 10px;
+	padding: 3px 7px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: red;
+	border-radius: 10px;
+}
+
+.list-group-item.active,.list-group-item.active:hover,.list-group-item.active:focus
+	{
+	z-index: 2;
+	color: #fff;
+	background-color: #EEB422;
+	border-color: #EEB422;
+}
